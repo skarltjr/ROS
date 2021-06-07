@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="bothFirst" name="bothFirst" type="bothFirst" output="screen"></node>
+</launch>
+

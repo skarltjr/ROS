@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="bothSecond" name="bothSecond" type="bothSecond" output="screen"></node>
+</launch>

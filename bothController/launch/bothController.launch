@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="bothController" name="bothController" type="bothController" output="screen"></node>
+</launch>

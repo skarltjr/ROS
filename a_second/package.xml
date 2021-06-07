@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>a_second</name>
+    <version>0.0.0</version>
+    <description>The a_second package</description>
+
+    <maintainer email="kisa0828@naver.com">kiseok</maintainer>
+
+    <license>TODO</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>a_first</build_depend>
+
+    <build_export_depend>roscpp</build_export_depend>
+    <build_export_depend>std_msgs</build_export_depend>
+    <build_export_depend>a_first</build_export_depend>
+
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
+    <exec_depend>a_first</exec_depend>
+
+  <export>
+  </export>
+</package>
