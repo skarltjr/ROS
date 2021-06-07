@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="calcServer" name="calcServer" type="calcServer" output="screen"></node>
+</launch>

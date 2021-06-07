@@ -1,0 +1,14 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster"
+     args="0 0 1 1.0472 0 1.5708 parent_link child_link 100"/>
+</launch>
+<!-- args = {x,y,z,yaw,pitch,roll}  롤 피치 요는 라디안
+    1.0472 = 60도 1.5708은 90도 - rviz에서 변환돈 축을 보면 알 수 있다.-
+    
+    p' = R(roll * pitch * yaw) * p 
+
+    R = Rx * Ry * Rz-->
+
+<!-- <launch>
+    <node pkg="my_tf_practice" type="my_tf_practice" name="my_tf_practice" output="screen"></node>
+</launch> -->

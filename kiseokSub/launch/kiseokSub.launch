@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="kiseokSub" name="kiseokSub" type="kiseokSub" output="screen"></node>
+</launch>

@@ -1,0 +1,15 @@
+<launch>
+    <arg name = "param_int" default = "5"/>
+    <arg name = "param_float" default = "2.7"/>
+    <arg name = "param_string" default = "kiseok"/>
+
+    <node pkg="kiseokPub" name="kiseokPub" type="kiseokPub" output="screen">
+        <param name ="param_int" value="$(arg param_int)"/>
+        <param name ="param_float" value="$(arg param_float)"/>
+        <param name ="param_string" value="$(arg param_string)"/>
+    </node>
+</launch>
+
+<!-- <launch>
+    <node pkg="kiseokPub" name="kiseokPub" type="kiseokPub" output="screen"></node>
+</launch> -->

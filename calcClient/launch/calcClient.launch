@@ -1,0 +1,4 @@
+<launch>
+    <arg name="my_args" default=""/>
+    <node pkg="calcClient" name="calcClient" type="calcClient" args="$(arg my_args)" output="screen"></node>
+</launch>
