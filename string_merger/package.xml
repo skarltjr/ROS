@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>string_merger</name>
+  <version>0.0.0</version>
+  <description>The string_merger package</description>
+
+  <maintainer email="xoz1206@naver.com">jaemin</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>pub_department_number</build_depend>
+  <build_depend>pub_major</build_depend>
+  <build_depend>pub_name</build_depend>
+  <build_depend>pub_subject</build_depend>
+  
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>pub_department_number</build_export_depend>
+  <build_export_depend>pub_major</build_export_depend>
+  <build_export_depend>pub_name</build_export_depend>
+  <build_export_depend>pub_subject</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>pub_department_number</exec_depend>
+  <exec_depend>pub_major</exec_depend>
+  <exec_depend>pub_name</exec_depend>
+  <exec_depend>pub_subject</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
